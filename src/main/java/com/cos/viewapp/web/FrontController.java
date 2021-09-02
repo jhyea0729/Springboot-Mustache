@@ -32,6 +32,7 @@ public class FrontController {	// Controller에서는 전역변수 쓰지 말라
 		List<Board> boards = new ArrayList<>();
 		boards.add(new Board(1, "제목1"));
 		boards.add(new Board(2, "제목2"));
+		boards.add(new Board(3, "제목3"));
 		
 		model.addAttribute("boards", boards);
 		
